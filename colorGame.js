@@ -60,7 +60,7 @@ function reset(){
     colors = generateRandomColors(numberOfSquares);
     pickedColor = pickColor();
     colorDisplay.textContent = pickedColor;
-    message.textContent = 'Let´s play!';
+    message.textContent = 'Guess the color!';
     h1.style.backgroundColor = body.style.backgroundColor;
 
     for(let i = 0; i < square.length; i++){    
